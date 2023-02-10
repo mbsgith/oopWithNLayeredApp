@@ -1,6 +1,8 @@
-package oopWithNLayeredApp.entities;
+package oopWithNLayeredApp.entities.concretes;
 
-public class Product {
+import oopWithNLayeredApp.entities.abstracts.Entity;
+
+public class Product implements Entity {
     private int id;
     private String name;
     private double unitPrice;

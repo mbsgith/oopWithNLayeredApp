@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd6764e-174c-46cf-9ba8-48be7862a724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oopWithNLayeredApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/business/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/DatabaseLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/core/logging/MailLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/HibernateProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/JdbcProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/entities/Product.java" afterDir="false" />
+    <list default="true" id="6cd6764e-174c-46cf-9ba8-48be7862a724" name="Changes" comment="ilk yapı kuruldu">
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/business/abstaracts/ProductServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/entities/abstracts/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/business/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/business/concretes/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/HibernateProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/concretes/HibernateProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/JdbcProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/concretes/JdbcProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/dataAccess/abstaracts/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopWithNLayeredApp/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopWithNLayeredApp/entities/concretes/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,6 +65,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675832798260</updated>
     </task>
+    <task id="LOCAL-00001" summary="ilk yapı kuruldu">
+      <created>1676001915230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676001915230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,10 +80,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ilk yapı kuruldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="ilk yapı kuruldu" />
   </component>
 </project>

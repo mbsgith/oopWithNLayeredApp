@@ -1,6 +1,7 @@
-package oopWithNLayeredApp.dataAccess;
+package oopWithNLayeredApp.dataAccess.concretes;
 
-import oopWithNLayeredApp.entities.Product;
+import oopWithNLayeredApp.dataAccess.abstaracts.ProductDao;
+import oopWithNLayeredApp.entities.concretes.Product;
 
 public class JdbcProductDao implements ProductDao {
     public void add(Product product){
